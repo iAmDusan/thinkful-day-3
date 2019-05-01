@@ -20,8 +20,15 @@ const testString = "craft block argon meter bells brown croon droop";
 // }
 
 function decodeWords(string) {
-    string.split(' ').map(word => )
-
+    const newString = string.split(' ').map(word => {
+        const firstLetter = word[0];
+        const index = decode[firstLetter]-1;
+        if (!index) {
+            return ' ';
+        }
+        return word[index];
+    });
+    return newString.join('');
 }
 
 
