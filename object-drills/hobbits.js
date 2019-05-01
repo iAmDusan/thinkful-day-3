@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 const hobbitStuff = {
   meals:['breakfast', 'second breakfast', 'elevenses', 'lunch', 'afternoon tea', 'dinner', 'supper']
 }
