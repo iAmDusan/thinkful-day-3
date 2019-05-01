@@ -1,17 +1,19 @@
+/* eslint-disable no-console */
+/* eslint-disable no-undef */
 /* eslint-disable strict */
 function makeStudentsReport(data) {
   // your code here 
   let outArray = [];
   for (keys in data) {
     let studentString = data[keys];
-        outArray.push(`${studentString.name}: ${studentString.grade}`);
+    outArray.push(`${studentString.name}: ${studentString.grade}`);
   }
-return outArray;
+  return outArray;
 
 }
   
 
-console.log()
+console.log();
 /* From here down, you are not expected to 
      understand.... for now :)  
      
